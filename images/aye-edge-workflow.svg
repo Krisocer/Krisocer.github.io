@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="190" viewBox="0 0 920 190" role="img" aria-labelledby="title desc">
+<title id="title">AyE-Edge conceptual workflow preview</title>
+<desc id="desc">Video, detector, and edge device enter a joint deployment search over keyframes, pruning, and CPU-GPU configuration to produce efficient real-time object detection.</desc>
+<rect x="0.5" y="0.5" width="919" height="189" rx="16" fill="#f8fafc" stroke="#dbe4ed"/>
+<text x="22" y="31" fill="#ac642b" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">CONCEPTUAL WORKFLOW</text>
+<rect x="18" y="47" width="197" height="125" rx="12" fill="#fff" stroke="#d4dee8"/>
+<rect x="18" y="47" width="197" height="7" rx="3.5" fill="#ac642b"/>
+<circle cx="41" cy="76" r="13" fill="#fff0df"/>
+<text x="41" y="81" text-anchor="middle" fill="#ac642b" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">1</text>
+<text x="35" y="107" fill="#193247" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Inputs</text>
+<text x="35" y="130" fill="#455d70" font-family="Arial, Helvetica, sans-serif" font-size="14">Video + detector</text>
+<text x="35" y="149" fill="#455d70" font-family="Arial, Helvetica, sans-serif" font-size="14">+ edge device</text>
+<path d="M 221 109 H 237" fill="none" stroke="#ac642b" stroke-width="2.5" stroke-linecap="round"/>
+<path d="m 233 104 5 5 -5 5" fill="none" stroke="#ac642b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="242" y="47" width="197" height="125" rx="12" fill="#fff" stroke="#d4dee8"/>
+<rect x="242" y="47" width="197" height="7" rx="3.5" fill="#ac642b"/>
+<circle cx="265" cy="76" r="13" fill="#fff0df"/>
+<text x="265" y="81" text-anchor="middle" fill="#ac642b" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">2</text>
+<text x="259" y="107" fill="#193247" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Joint search</text>
+<text x="259" y="130" fill="#455d70" font-family="Arial, Helvetica, sans-serif" font-size="14">Keyframes �� pruning</text>
+<text x="259" y="149" fill="#455d70" font-family="Arial, Helvetica, sans-serif" font-size="14">CPU�CGPU configuration</text>
+<path d="M 445 109 H 461" fill="none" stroke="#ac642b" stroke-width="2.5" stroke-linecap="round"/>
+<path d="m 457 104 5 5 -5 5" fill="none" stroke="#ac642b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="466" y="47" width="197" height="125" rx="12" fill="#fff" stroke="#d4dee8"/>
+<rect x="466" y="47" width="197" height="7" rx="3.5" fill="#ac642b"/>
+<circle cx="489" cy="76" r="13" fill="#fff0df"/>
+<text x="489" y="81" text-anchor="middle" fill="#ac642b" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">3</text>
+<text x="483" y="107" fill="#193247" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Evaluate</text>
+<text x="483" y="130" fill="#455d70" font-family="Arial, Helvetica, sans-serif" font-size="14">Accuracy �� latency</text>
+<text x="483" y="149" fill="#455d70" font-family="Arial, Helvetica, sans-serif" font-size="14">power consumption</text>
+<path d="M 669 109 H 685" fill="none" stroke="#ac642b" stroke-width="2.5" stroke-linecap="round"/>
+<path d="m 681 104 5 5 -5 5" fill="none" stroke="#ac642b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="690" y="47" width="197" height="125" rx="12" fill="#fff" stroke="#d4dee8"/>
+<rect x="690" y="47" width="197" height="7" rx="3.5" fill="#ac642b"/>
+<circle cx="713" cy="76" r="13" fill="#fff0df"/>
+<text x="713" y="81" text-anchor="middle" fill="#ac642b" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">4</text>
+<text x="707" y="107" fill="#193247" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Deploy</text>
+<text x="707" y="130" fill="#455d70" font-family="Arial, Helvetica, sans-serif" font-size="14">Real-time edge</text>
+<text x="707" y="149" fill="#455d70" font-family="Arial, Helvetica, sans-serif" font-size="14">object detection</text>
+</svg>

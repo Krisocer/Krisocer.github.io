@@ -1,0 +1,38 @@
+.selected-paper-list {
+  display: grid;
+  gap: 1.25rem;
+  margin: 0.75rem 0 1.5rem;
+}
+
+.selected-paper {
+  padding: 1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.6rem;
+  background: var(--global-bg-color);
+
+  h3 {
+    margin: 0;
+    font-size: 1.05em;
+    line-height: 1.4;
+  }
+}
+
+.selected-paper__meta {
+  margin: 0.35rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.88em;
+}
+
+.selected-paper__preview {
+  display: block;
+  margin-top: 0.8rem;
+  overflow-x: auto;
+
+  img {
+    display: block;
+    width: 100%;
+    min-width: 600px;
+    height: auto;
+    border-radius: 0.45rem;
+  }
+}
