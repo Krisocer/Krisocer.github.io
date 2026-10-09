@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Ph.D. student in Electrical and Computer Engineering at the **University of Pittsburgh**, advised by **Jingtong Hu**. My research focuses on efficient and trustworthy AI, especially privacy-preserving vision-language models for wearable devices, fairness in medical imaging, and efficient AI deployment on edge systems.
 
-My recent work studies how sensitive information can be exposed through visual tokens in wearable AI and how models can preserve useful answers while reducing private-attribute leakage. I also co-developed **FairGen**, a preference-aligned diffusion framework for demographically equitable medical image synthesis, and contributed to efficient real-time object detection on mobile hardware.
+My recent work studies how sensitive information can be exposed through visual tokens in wearable AI and how models can preserve useful answers while reducing private-attribute leakage. I also co-developed a preference-aligned diffusion framework for demographically equitable medical image synthesis, and contributed to efficient real-time object detection on mobile hardware.
 
 ## Research interests
 
