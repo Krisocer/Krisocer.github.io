@@ -1,56 +1,114 @@
 .selected-paper-list {
-  display: grid;
-  gap: 1.25rem;
-  margin: 0.75rem 0 1.5rem;
+  margin: 0.5rem 0 1.5rem;
 }
 
 .selected-paper {
-  padding: 1rem;
-  border: 1px solid var(--global-border-color);
-  border-radius: 0.6rem;
-  background: var(--global-bg-color);
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:first-child {
+    padding-top: 0.3rem;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
 
   h3 {
-    margin: 0;
-    font-size: 1.05em;
-    line-height: 1.4;
+    margin: 0 0 0.25rem;
+    font-size: 0.98em;
+    line-height: 1.35;
   }
 }
 
-.selected-paper__meta {
-  margin: 0.35rem 0 0;
-  color: var(--global-text-color-light);
-  font-size: 0.88em;
-}
-
-.selected-paper__preview {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 360px;
-  margin-top: 0.8rem;
+.selected-paper__thumb {
+  display: block;
+  width: 160px;
+  height: 118px;
   overflow: hidden;
   border: 1px solid var(--global-border-color);
-  border-radius: 0.45rem;
+  border-radius: 0.3rem;
   background: #fff;
 
   img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+  }
+}
+
+.selected-paper__thumb--fairgen img {
+  object-position: 67% 42%;
+}
+
+.selected-paper__thumb--wearable img {
+  object-position: 50% 50%;
+}
+
+.selected-paper__thumb--aye img {
+  object-position: 53% 50%;
+}
+
+.selected-paper__details {
+  min-width: 0;
+}
+
+.selected-paper__authors,
+.selected-paper__meta {
+  margin: 0.15rem 0;
+  font-size: 0.82em;
+  line-height: 1.35;
+}
+
+.selected-paper__meta {
+  color: var(--global-text-color-light);
+}
+
+.selected-paper__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.55rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 26px;
+    padding: 0.15rem 0.55rem;
+    border: 1px solid var(--global-border-color);
+    border-radius: 0.2rem;
+    color: var(--global-text-color);
+    font-size: 0.67em;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus {
+      border-color: var(--global-link-color);
+      color: var(--global-link-color);
+    }
   }
 }
 
 @media (max-width: 600px) {
-  .selected-paper__preview {
-    height: 230px;
+  .selected-paper {
+    grid-template-columns: 104px minmax(0, 1fr);
+    gap: 0.75rem;
   }
-}
 
-.selected-paper__credit {
-  margin: 0.35rem 0 0;
-  color: var(--global-text-color-light);
-  font-size: 0.72em;
+  .selected-paper__thumb {
+    width: 104px;
+    height: 92px;
+  }
+
+  .selected-paper h3 {
+    font-size: 0.9em;
+  }
 }
