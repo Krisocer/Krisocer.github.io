@@ -23,7 +23,7 @@ repository               : "Krisocer/Krisocer.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "zhimin-placeholder.svg"
+  avatar           : "zhimin-li.jpg"
   name             : "Zhimin Li"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. student in Electrical and Computer Engineering | Efficient and Trustworthy AI"

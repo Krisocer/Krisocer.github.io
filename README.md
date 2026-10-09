@@ -11,7 +11,7 @@ Personal academic website built from the [Academic Pages template](https://githu
 - Navigation: `_data/navigation.yml`
 - Personal profile and links: `_config.yml`
 
-The homepage portrait currently uses `images/zhimin-placeholder.svg`. When a portrait is available, place it in `images/` and update `author.avatar` in `_config.yml`.
+The homepage portrait uses `images/zhimin-li.jpg`. To change it, replace that image or update `author.avatar` in `_config.yml`.
 
 Two manuscripts under blind review are listed as "Under review" with internal detail pages. Their PDFs are not included.
 
