@@ -154,8 +154,10 @@
   }
 
   img {
+    display: block;
     width: 36px;
     height: 36px;
+    aspect-ratio: 1 / 1;
     max-width: 175px;
     border-radius: 50%;
     object-fit: cover;
