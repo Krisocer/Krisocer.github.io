@@ -44,7 +44,7 @@ Efficient and Trustworthy AI · Edge and Embedded AI · Vision-Language Models �
   </article>
 </div>
 
-[View all publications](/publications/) · [Research projects](/research/) · [CV](/cv/)
+[View all publications](/publications/) · [Research projects](/research/) · <a href="/files/Zhimin_Li_CV.pdf" download="Zhimin_Li_CV.pdf">CV</a> · [View CV online](/cv/)
 
 ## Find me online
 

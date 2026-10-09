@@ -5,6 +5,8 @@ permalink: /cv/
 author_profile: true
 ---
 
+<a href="/files/Zhimin_Li_CV.pdf" download="Zhimin_Li_CV.pdf">Download the PDF CV</a>
+
 **Zhimin Li** · Pittsburgh, PA · [zhl157@pitt.edu](mailto:zhl157@pitt.edu)
 
 ## Education

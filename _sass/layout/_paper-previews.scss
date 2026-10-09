@@ -24,16 +24,28 @@
 }
 
 .selected-paper__preview {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
   margin-top: 0.8rem;
-  overflow-x: auto;
+  overflow: hidden;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.45rem;
+  background: #fff;
 
   img {
     display: block;
     width: 100%;
-    min-width: 600px;
-    height: auto;
-    border-radius: 0.45rem;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 600px) {
+  .selected-paper__preview {
+    height: 220px;
   }
 }
 
