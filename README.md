@@ -33,4 +33,3 @@ Open `http://localhost:4000`.
 ## Source and license
 
 This site retains the upstream [Academic Pages](https://github.com/academicpages/academicpages.github.io) code and its MIT license in `LICENSE`.
-

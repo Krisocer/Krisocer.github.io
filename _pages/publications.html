@@ -1,0 +1,19 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+<p>Browse my work on <a href="{{ site.author.googlescholar }}">Google Scholar</a>. Published papers and public preprints link to their external pages. Manuscripts under review link to their site details; no manuscript PDF is posted here.</p>
+
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+{% for category in site.publication_category %}
+  <h2>{{ category[1].title }}</h2>
+  <hr />
+  {% for post in sorted_publications %}
+    {% if post.category == category[0] %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
