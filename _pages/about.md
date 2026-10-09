@@ -21,23 +21,26 @@ Efficient and Trustworthy AI �� Edge and Embedded AI �� Vision-Language 
   <article class="selected-paper">
     <h3><a href="https://doi.org/10.1038/s41746-026-02868-z">FairGen: Preference-Aligned Diffusion for Demographically Equitable Medical Image Synthesis</a></h3>
     <p class="selected-paper__meta"><em>npj Digital Medicine</em>, 2026.</p>
-    <a class="selected-paper__preview" href="https://doi.org/10.1038/s41746-026-02868-z" aria-label="Open the FairGen paper">
-      <img src="/images/fairgen-workflow.svg" alt="FairGen concept: rebalance clinical data, guide diffusion with diversity and clinician preferences, then use synthetic images for diagnosis." width="920" height="190" loading="lazy" />
+    <a class="selected-paper__preview" href="/images/fairgen-figure1.png" aria-label="Open full-size FairGen Figure 1">
+      <img src="/images/fairgen-figure1.png" alt="Figure 1 from FairGen, showing data imbalance, diffusion training, and downstream classifier training." width="1640" height="1075" loading="lazy" />
     </a>
+    <p class="selected-paper__credit">Figure 1 from the <a href="https://arxiv.org/abs/2606.14727">FairGen paper</a> �� Click to enlarge</p>
   </article>
   <article class="selected-paper">
     <h3><a href="https://arxiv.org/abs/2608.28691">Defending Wearable VLMs Against Private Attribute Inference</a></h3>
     <p class="selected-paper__meta">arXiv, 2026; under review.</p>
-    <a class="selected-paper__preview" href="https://arxiv.org/abs/2608.28691" aria-label="Open the wearable VLM privacy paper">
-      <img src="/images/wearable-vlm-workflow.svg" alt="Wearable VLM concept: encode egocentric images on device, protect visual tokens with TGAP, and generate a useful answer downstream." width="920" height="190" loading="lazy" />
+    <a class="selected-paper__preview" href="/images/wearable-vlm-figure2.png" aria-label="Open full-size wearable VLM Figure 2">
+      <img src="/images/wearable-vlm-figure2.png" alt="Figure 2 from the wearable VLM privacy paper, showing the benchmark, trusted device pipeline, source model, and external attacker path." width="1320" height="562" loading="lazy" />
     </a>
+    <p class="selected-paper__credit">Figure 2 from the <a href="https://arxiv.org/abs/2608.28691">wearable VLM paper</a> �� Click to enlarge</p>
   </article>
   <article class="selected-paper">
     <h3><a href="https://doi.org/10.1145/3676536.3676655">AyE-Edge: Automated Deployment Space Search Empowering Accuracy yet Efficient Real-Time Object Detection on the Edge</a></h3>
     <p class="selected-paper__meta"><em>ICCAD</em>, 2024.</p>
-    <a class="selected-paper__preview" href="https://doi.org/10.1145/3676536.3676655" aria-label="Open the AyE-Edge paper">
-      <img src="/images/aye-edge-workflow.svg" alt="AyE-Edge concept: jointly search keyframe selection, detector pruning, and CPU-GPU settings to deploy efficient real-time object detection." width="920" height="190" loading="lazy" />
+    <a class="selected-paper__preview" href="/images/aye-edge-figure3.png" aria-label="Open full-size AyE-Edge Figure 3">
+      <img src="/images/aye-edge-figure3.png" alt="Figure 3 from AyE-Edge, showing its development tool for edge object detection." width="806" height="426" loading="lazy" />
     </a>
+    <p class="selected-paper__credit">Figure 3 from the <a href="https://arxiv.org/abs/2408.05363">AyE-Edge paper</a> �� Click to enlarge</p>
   </article>
 </div>
 
