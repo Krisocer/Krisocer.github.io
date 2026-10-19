@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Ph.D. student in Electrical and Computer Engineering at the **University of Pittsburgh**, advised by **Jingtong Hu**. My research focuses on efficient and trustworthy AI, especially privacy-preserving vision-language models for wearable devices, fairness in medical imaging, and efficient AI deployment on edge systems.
 
-My recent work studies how sensitive information can be exposed through visual tokens in wearable AI and how models can preserve useful answers while reducing private-attribute leakage. I also co-developed a preference-aligned diffusion framework for demographically equitable medical image synthesis, and contributed to efficient real-time object detection on mobile hardware.
+My recent work studies how to protect visual information in wearable AI while keeping vision-language inference efficient on real smart glasses. I also co-developed a preference-aligned diffusion framework for demographically equitable medical image synthesis, and contributed to efficient real-time object detection on mobile hardware.
 
 ## Research interests
 
@@ -18,6 +18,21 @@ Efficient and Trustworthy AI · Edge and Embedded AI · Vision-Language Models �
 ## Selected publications
 
 <div class="selected-paper-list">
+  <article class="selected-paper">
+    <a class="selected-paper__thumb selected-paper__thumb--sage" href="/images/sage-figure1.png" aria-label="Open full-size SAGE Figure 1">
+      <img src="/images/sage-figure1.png" alt="Figure 1 from SAGE, comparing previous protected inference with the efficient protected pipeline on smart glasses." width="1307" height="444" loading="lazy" />
+    </a>
+    <div class="selected-paper__details">
+      <h3><a href="https://arxiv.org/abs/2610.14089">SAGE: Efficient Protected Vision-Language Inference on Smart Glasses</a></h3>
+      <p class="selected-paper__authors"><strong>Zhimin Li</strong>, Pan Wang, Jingxian Chen, Yuantao Tang, Qian Lou, Jingtong Hu</p>
+      <p class="selected-paper__meta">arXiv, 2026 · Under review at ICLR 2027</p>
+      <div class="selected-paper__actions">
+        <a href="https://arxiv.org/abs/2610.14089">Paper</a>
+        <a href="https://arxiv.org/pdf/2610.14089">PDF</a>
+        <a href="/images/sage-figure1.png">Figure 1</a>
+      </div>
+    </div>
+  </article>
   <article class="selected-paper">
     <a class="selected-paper__thumb selected-paper__thumb--fairgen" href="/images/fairgen-figure1.png" aria-label="Open full-size FairGen Figure 1">
       <img src="/images/fairgen-figure1.png" alt="Figure 1 from FairGen, showing data imbalance, diffusion training, and downstream classifier training." width="1640" height="1075" loading="lazy" />
@@ -41,7 +56,7 @@ Efficient and Trustworthy AI · Edge and Embedded AI · Vision-Language Models �
     <div class="selected-paper__details">
       <h3><a href="https://arxiv.org/abs/2608.28691">Defending Wearable VLMs Against Private Attribute Inference</a></h3>
       <p class="selected-paper__authors"><strong>Zhimin Li</strong>, Pan Wang, Jingxian Chen, Yuantao Tang, Anthony Chen, Qian Lou, Jingtong Hu</p>
-      <p class="selected-paper__meta">arXiv, 2026 · Under review</p>
+      <p class="selected-paper__meta">arXiv, 2026 · Under review at ICLR 2027</p>
       <div class="selected-paper__actions">
         <a href="https://arxiv.org/abs/2608.28691">Paper</a>
         <a href="https://arxiv.org/pdf/2608.28691">PDF</a>

@@ -13,6 +13,10 @@ I study privacy risks in wearable AI, where intermediate visual representations 
 
 [Paper](https://arxiv.org/abs/2608.28691)
 
+I also developed SAGE, a hardware-aware approach to protected inference on real smart glasses. It lowers visual input cost, runs shape-specialized INT8 graphs, and sends compact protected packets. On a matched Qwen workload, SAGE reduced glasses inference latency by 39.18% and protected packet size by 96.56%.
+
+[SAGE preprint](https://arxiv.org/abs/2610.14089)
+
 ## Fairness in AI-assisted mobile healthcare
 
 **November 2023–November 2025 · Advisor: Jingtong Hu**
